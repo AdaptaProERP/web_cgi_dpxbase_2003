@@ -1,0 +1,10 @@
+// Programa  : 
+// Fecha/Hora: 21/05/2003 23:59:15
+// Propósito : 
+// Creado Por:
+#INCLUDE "DPXBASE.CH"
+
+FUNCTION DPXBASE(CMSG)
+MSGALERT(CMSG)
+RETURN NIL
+

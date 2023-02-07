@@ -1,0 +1,24 @@
+// Programa   :
+// Fecha/Hora : 04/07/2003 18:08:22
+// Propósito  :
+// Creado Por :
+// Llamado por:
+// Aplicación :
+// Tabla      :
+#INCLUDE "DPXBASE.CH"
+#INCLUDE "DPCGI.CH"
+PROCE MAIN()
+
+     local aTemas:={}
+
+     AADD(aTemas,[Uno])
+
+     AADD(aTemas,[Dos])
+
+     AADD(aTemas,[Tres])
+
+     AADD(aTemas,[Cuatro])
+
+    MSGLIST(aTemas)
+
+RETURN .T
