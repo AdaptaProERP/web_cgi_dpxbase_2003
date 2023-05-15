@@ -1,0 +1,12 @@
+// Programa   : CGITRACER
+// Fecha/Hora : 02/06/2003 23:41:08
+// Propósito  : Muestra los Comandos SQL, Depende de la Variable oCGI:ltracer:=.T.
+// Creado Por : Oscar Londoño
+// Llamado por: Cualquier Programa
+// Aplicación : DPCGI
+// Tabla      : Todas
+
+FUNCTION DPXBASE(CMSG)
+  MSGALERT(CMSG)
+RETURN NIL
+
